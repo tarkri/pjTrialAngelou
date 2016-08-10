@@ -1,0 +1,1 @@
+var beginJournal=function(t,n){$("button.create-entry").on("click",function(n){var e=$(this);n.preventDefault(),$.ajax({url:t,type:"GET",success:function(t){e.fadeOut(),$.get(t,function(t){$(".situation").html(t)})}})})};

@@ -11,3 +11,5 @@
 |
 */
 Route::get('/', 'JournalController@index');
+Route::get('create', 'JournalController@create');
+Route::get('{id}/situation', 'JournalController@situation');
