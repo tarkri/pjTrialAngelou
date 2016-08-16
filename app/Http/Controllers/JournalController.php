@@ -321,7 +321,7 @@ class JournalController extends Controller
         $action = $this->action->find($input['action']);
         $action->content = $input['content'];
         $action->save();
-        return response()->json($id . '/complete');
+        return response()->json($id . '/journal');
     }
 
     /**

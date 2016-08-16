@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="journal.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/journal.blade.php">
+      <file leaf-file-name="reflection.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/reflection.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2525">
-              <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.08625">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -61,16 +61,16 @@
         <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/journal.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/JournalController.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/situation.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/results.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/reflection.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/outcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/insight.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/complete.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/action.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/scss/bootstrap.scss" />
         <option value="$PROJECT_DIR$/resources/views/pages/journal.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/JournalController.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/reflection.blade.php" />
       </list>
     </option>
   </component>
@@ -490,7 +490,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -546,70 +546,70 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
           <folding>
-            <marker date="1471312094000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -619,70 +619,70 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
           <folding>
-            <marker date="1471312094000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -692,70 +692,70 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
           <folding>
-            <marker date="1471312094000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -772,70 +772,70 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding>
-            <marker date="1471312094000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1064,79 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JournalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.00875">
-          <caret line="348" column="155" selection-start-line="348" selection-start-column="155" selection-end-line="348" selection-end-column="155" />
-          <folding>
-            <marker date="1471312094000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1471312094000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.575">
@@ -1186,39 +1113,6 @@
             <marker date="1471312302000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1471312302000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1471312302000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/reflection.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding>
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1471312316000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1330,8 +1224,148 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/journal.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2525">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.45375">
+          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+          <folding>
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JournalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39625">
+          <caret line="327" column="17" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
+          <folding>
+            <marker date="1471313741000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Action ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Behavior ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var InnerState ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Insight ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Journal ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Mindset ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Outcome ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Result ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Situation ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var Thought ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @var User ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" JournalController constructor. ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\Http\JsonResponse ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param Request $request ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder=" @param $id ..." />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1471313741000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/reflection.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08625">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
