@@ -859,7 +859,4 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  padding: 20px; }

@@ -3,10 +3,10 @@
 @section('content')
 
     <div class="container">
-        <button class="btn btn-primary btn-lg create-entry">Create Journal Entry</button>
+        <button class="btn btn-primary btn-lg hidden create-entry animated bounceIn">Create Journal Entry</button>
         <div class="form-wrapper">
             <div class="row">
-                <div class="form-content"></div>
+                <div class="form-content hidden"></div>
             </div>
         </div>
     </div>

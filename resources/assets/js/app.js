@@ -7,15 +7,18 @@ var beginJournal = function(url, token) {
            type: 'GET',
            success:function(response){
                button.fadeOut();
-               $.get(response, function(data){
-                    $('.form-content').html(data);
-               });
+               setTimeout(function(){
+                   $.get(response, function(data){
+                       $('.form-content').html(data);
+                       $('.form-content').toggleClass('hidden animated flipInX');
+                   });
+               }, 500);
            }
         });
     });
 }
 
-var postSubmission = function(ele, url) {
+var postSubmission = function(ele, url, baseURL) {
     $(ele).on('submit', function(e){
         e.preventDefault();
         var fields = $(this).serialize();
@@ -23,10 +26,18 @@ var postSubmission = function(ele, url) {
            url: url,
            method: 'POST',
            data: fields,
+           beforeSend: function(){
+               $('.form-content').toggleClass('animated flipInX');
+               $('.form-content').addClass('animated flipOutX');
+               setTimeout(function(){
+                   $('.form-content').addClass('hidden');
+               }, 1000);
+           },
            success: function(response){
                console.log(response);
-               $.get(response, function(data){
+               $.get(baseURL +'/'+ response, function(data){
                    $('.form-content').html(data);
+                   $('.form-content').toggleClass('hidden animated flipInX');
                });
            },
             error: function(response) {

@@ -12,6 +12,9 @@
 */
 Route::get('/', 'JournalController@index');
 Route::get('create', 'JournalController@create');
+Route::get('preview', function(){
+   return view('pages.preview.preview');
+});
 Route::post('{id}/situation', 'JournalController@saveSituation');
 Route::get('{id}/situation', 'JournalController@situation');
 Route::post('{id}/results', 'JournalController@saveResult');
@@ -25,3 +28,4 @@ Route::get('{id}/outcome', 'JournalController@outcome');
 Route::post('{id}/action', 'JournalController@saveAction');
 Route::get('{id}/action', 'JournalController@action');
 Route::get('{id}/complete', 'JournalController@complete');
+Route::get('{id}/journal', 'JournalController@show');

@@ -134,13 +134,13 @@ class JournalController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function saveSituation(Request $request)
+    public function saveSituation(Request $request, $id)
     {
         $input = $request->all();
         $situation = $this->situation->find($input['situation']);
         $situation->content = $input['content'];
         $situation->save();
-        return response()->json(URL::to($situation->journal_id . '/results'));
+        return response()->json($id . '/results');
     }
 
     /**
@@ -164,13 +164,13 @@ class JournalController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function saveResult(Request $request)
+    public function saveResult(Request $request, $id)
     {
         $input = $request->all();
         $result = $this->result->find($input['result']);
         $result->content = $input['content'];
         $result->save();
-        return response()->json(URL::to($result->journal_id . '/reflection'));
+        return response()->json($id . '/reflection');
 
     }
 
@@ -216,7 +216,7 @@ class JournalController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function saveReflection(Request $request)
+    public function saveReflection(Request $request, $id)
     {
         $input = $request->all();
         $thought = $this->thought->find($input['thought_id']);
@@ -231,7 +231,7 @@ class JournalController extends Controller
         $mindset = $this->mindset->find($input['mindset_id']);
         $mindset->content = $input['mindset_content'];
         $mindset->save();
-        return response()->json(URL::to($thought->journal_id . '/insight'));
+        return response()->json($id. '/insight');
     }
 
     /**
@@ -248,20 +248,20 @@ class JournalController extends Controller
             $insight->journal_id = $journal->id;
             $insight->save();
         }
-        return view('pages.insights', compact('insight', 'journal'));
+        return view('pages.insight', compact('insight', 'journal'));
     }
 
     /**
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function saveInsight(Request $request)
+    public function saveInsight(Request $request, $id)
     {
         $input = $request->all();
         $insight = $this->insight->find($input['insight']);
         $insight->content = $input['content'];
         $insight->save();
-        return response()->json(URL::to($insight->journal_id . '/outcome'));
+        return response()->json($id . '/outcome');
     }
 
     /**
@@ -278,20 +278,20 @@ class JournalController extends Controller
             $outcome->journal_id = $journal->id;
             $outcome->save();
         }
-        return view('pages.outcomes', compact('outcome', 'journal'));
+        return view('pages.outcome', compact('outcome', 'journal'));
     }
 
     /**
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function saveOutcome(Request $request)
+    public function saveOutcome(Request $request, $id)
     {
         $input = $request->all();
         $outcome = $this->outcome->find($input['outcome']);
         $outcome->content = $input['content'];
         $outcome->save();
-        return response()->json(URL::to($outcome->journal_id . '/action'));
+        return response()->json($id . '/action');
     }
 
     /**
@@ -308,20 +308,20 @@ class JournalController extends Controller
             $action->journal_id = $journal->id;
             $action->save();
         }
-        return view('pages.actions', compact('action', 'journal'));
+        return view('pages.action', compact('action', 'journal'));
     }
 
     /**
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function saveAction(Request $request)
+    public function saveAction(Request $request, $id)
     {
         $input = $request->all();
         $action = $this->action->find($input['action']);
         $action->content = $input['content'];
         $action->save();
-        return response()->json(URL::to($action->journal_id . '/complete'));
+        return response()->json($id . '/complete');
     }
 
     /**
@@ -332,5 +332,20 @@ class JournalController extends Controller
     {
         $journal = $this->journal->find($id);
         return 'complete';
+    }
+
+    public function show($id)
+    {
+        $journal = $this->journal->find($id);
+        $situation = $this->situation->where('journal_id', $journal->id)->first();
+        $result = $this->result->where('journal_id', $journal->id)->first();
+        $thought = $this->thought->where('journal_id', $journal->id)->first();
+        $behavior = $this->behavior->where('journal_id', $journal->id)->first();
+        $state = $this->innerState->where('journal_id', $journal->id)->first();
+        $mindset = $this->mindset->where('journal_id', $journal->id)->first();
+        $insight = $this->insight->where('journal_id', $journal->id)->first();
+        $outcome = $this->outcome->where('journal_id', $journal->id)->first();
+        $action = $this->action->where('journal_id', $journal->id)->first();
+        return view('pages.journal', compact('journal', 'situation', 'result', 'thought', 'behavior', 'state', 'mindset', 'insight', 'outcome', 'action'));
     }
 }

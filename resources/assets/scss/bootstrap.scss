@@ -53,4 +53,39 @@
 // Utility classes
 @import "utilities";
 
+body {
+  background:linear-gradient(0deg, #b0b0b0, #a0a0a0);
+}
+
+.journal-wrapper {
+  min-height: 100vh;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea.form-control {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background: linear-gradient(0deg, #f2f2f2, #ccc);
+}
+
+.card.journal-entry {
+  background:transparent;
+  border:none;
+  button {
+    margin-top:10px;
+  }
+}
+
+.single-journal {
+  min-height: 100vh;
+  height: 100%;
+}
+
 
