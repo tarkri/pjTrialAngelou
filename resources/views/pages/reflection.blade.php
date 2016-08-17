@@ -1,7 +1,7 @@
 @extends('layouts.plain')
 
 @section('content')
-    <div class="text-center" style="width:100%">
+    <div class="card text-center" style="width:100%;background:transparent;">
         <div class="row">
             <form>
                 <input type="hidden" name="_token" id="_token" value="{{ csrf_token() }}">
