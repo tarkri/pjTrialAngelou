@@ -12,8 +12,14 @@
 */
 Route::get('/', 'JournalController@index');
 Route::get('create', 'JournalController@create');
-Route::get('preview', function(){
-   return view('pages.preview.preview');
+Route::group(['prefix' => 'preview'], function(){
+   Route::get('situation', 'PreviewController@situation');
+   Route::get('results', 'PreviewController@results');
+   Route::get('reflection', 'PreviewController@reflection');
+   Route::get('insight', 'PreviewController@insight');
+   Route::get('outcome', 'PreviewController@outcome');
+   Route::get('action', 'PreviewController@action');
+   Route::get('journal', 'PreviewController@journal');
 });
 Route::post('{id}/situation', 'JournalController@saveSituation');
 Route::get('{id}/situation', 'JournalController@situation');
